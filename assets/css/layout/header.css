@@ -17,7 +17,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* Navigasyon Menu */
+/* Navigation Menu */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -25,14 +25,32 @@
   font-family: "Poppins", serif;
 }
 
-/* Theme Button */
+/* Navigation Buttons */
+.nav__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
 
-.change-theme {
+/* Theme and Mobil Menu Button */
+.change-theme,
+.nav-toggle {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
+}
 
+/* Theme Button */
+.change-theme {
   background-color: var(--title-color);
   -webkit-mask: url("../../icons/moon.svg") no-repeat center;
   mask: url("../../icons/moon.svg") no-repeat center;
+}
+
+/* Menu Button */
+.nav-toggle {
+  background-color: var(--title-color);
+  -webkit-mask: url("../../icons/menu-open-light.svg") no-repeat center;
+  mask: url("../../icons/menu-open-light.svg") no-repeat center;
 }
