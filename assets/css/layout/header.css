@@ -1,0 +1,26 @@
+/* --- Header Sabitleme ve Temel Ayarlar --- */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: var(--space-4) var(--space-5);
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-family: "Lora", sans-serif;
+  background: linear-gradient(to right, #ff52af, #9f53ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigasyon Menu */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", serif;
+}
