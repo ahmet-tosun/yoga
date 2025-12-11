@@ -1,0 +1,77 @@
+:root {
+  /* --- Ana Renkler (Mode Değişse de Sabit Kalanlar) --- */
+  --first-color: #8b52ff;
+  --first-color-light: #e5d9fd;
+  --first-color-dark: #1e0849;
+  --second-color: #ff52ae;
+  --gradient-color: linear-gradient(to right, #ff52af, #9f53ff);
+  --white-color: #ffffff;
+
+  /* --- Temaya Göre Değişecek Renkler (Light Değerleri) --- */
+  --body-color: #f5f0ff; /* Arkaplan */
+  --container-color: #ffffff; /* Kartlar/Kutular */
+  --title-color: #220953; /* Başlıklar */
+  --text-color: #4b3e65; /* Normal Yazılar */
+  --text-color-light: #a197b4; /* Silik/Pasif Yazılar */
+
+  /* --- Yazı  Boyutları --- */
+  --biggest-font-size: 4.4rem;
+  --biger-font-size: 3.2rem;
+  --big-font-size: 2.8rem;
+  --h1-font-size: 2.4rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.6rem;
+  --h4-font-size: 1.5rem;
+  --small-font-size: 1.3rem;
+  --smaller-font-size: 1.2rem;
+
+  /* --- Boşluk Boyutları --- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+
+  /* --- Yazi Tipi --- */
+  --title-font: "Poppins", sans-serif;
+}
+
+body.dark-theme {
+  /* Figma: dark-body-color */
+  --body-color: #14092a;
+
+  /* Figma: dark-container-color */
+  --container-color: #372a51;
+
+  /* Figma: dark-title-color */
+  --title-color: #d1c0f1;
+
+  /* Figma: dark-text-color */
+  --text-color: #a094b8;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    /* --- Yazı  Boyutları --- */
+    --biggest-font-size: 7rem;
+    --biger-font-size: 5rem;
+    --big-font-size: 4rem;
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    /* --- Yazı  Boyutları --- */
+    --biggest-font-size: 9.6rem;
+    --biger-font-size: 6.4rem;
+    --big-font-size: 5.6rem;
+    --h1-font-size: 3.6rem;
+    --h2-font-size: 2.4rem;
+    --h3-font-size: 2rem;
+    --h4-font-size: 1.6rem;
+    --small-font-size: 1.4rem;
+    --smaller-font-size: 1.3rem;
+  }
+}
