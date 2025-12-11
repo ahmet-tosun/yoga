@@ -1,4 +1,4 @@
-/* --- Header Sabitleme ve Temel Ayarlar --- */
+/* --- Header Basics --- */
 .header {
   width: 100%;
   position: fixed;
@@ -23,4 +23,16 @@
   justify-content: space-between;
   align-items: center;
   font-family: "Poppins", serif;
+}
+
+/* Theme Button */
+
+.change-theme {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+
+  background-color: var(--title-color);
+  -webkit-mask: url("../../icons/moon.svg") no-repeat center;
+  mask: url("../../icons/moon.svg") no-repeat center;
 }
