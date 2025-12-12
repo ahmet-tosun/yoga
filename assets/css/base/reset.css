@@ -49,3 +49,27 @@ input {
 button {
   cursor: pointer;
 }
+
+.container {
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
