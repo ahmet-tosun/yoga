@@ -1,0 +1,10 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  color: var(--white-color);
+  background: var(--gradient-color);
+  padding: 1.6rem 2.8rem;
+  border-radius: 6.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}

@@ -5,6 +5,15 @@
 @import url("./base/reset.css");
 @import url("./base/variables.css");
 
+/* COMPONENTS */
+
+@import url("./components/button.css");
+@import url("./components/grid.css");
+
 /* LAYOUT */
 
 @import url("./layout/header.css");
+
+/* PAGES */
+
+@import url("./pages/home.css");
